@@ -1,3 +1,14 @@
 .cronometro{
     font-size: 10rem;
 }
+.boton_iniciar{
+    border-radius: 5rem;
+    border: b;
+    width: 5rem;
+    height: 2rem;
+    background-color: rgb(217, 135, 216);
+    cursor: pointer;
+}
+.boton_iniciar:hover{
+    box-shadow: 0rem 0.1rem 0.5rem;
+}
