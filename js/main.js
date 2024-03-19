@@ -26,11 +26,11 @@ function iniciar_cronometro(minutos, segundos) {
     tiempo = setInterval(actualizar, 1000);
 }
 
-let Iniciar = document.createElement('button');
-        Iniciar.textContent = 'Iniciar';
-        Iniciar.addEventListener('click', function() {
+let iniciar = document.querySelector(".boton_iniciar");
+        iniciar.textContent = 'iniciar';
+        iniciar.addEventListener('click', function() {
             iniciar_cronometro(10, 5); 
         });
-        document.body.appendChild(Iniciar);
+        document.body.appendChild(iniciar);
 
 
